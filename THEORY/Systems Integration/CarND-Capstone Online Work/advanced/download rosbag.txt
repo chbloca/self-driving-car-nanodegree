@@ -1,0 +1,9 @@
+cd /opt
+wget https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic_light_bag_file.zip
+unzip traffic_light_training.zip
+
+roscore
+rosbag play -l traffic_light_training.bag
+
+rviz
+File > Open Config
