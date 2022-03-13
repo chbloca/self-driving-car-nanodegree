@@ -1,0 +1,3 @@
+[submodule "themes/tranquilpeak"]
+    path = CarND-Capstone
+    url =  "https://github.com/chbloca/CarND-Capstone.git"
